@@ -3,8 +3,7 @@ module sui_tutorial::object_basic {
 
     use sui::object;
     use sui::transfer;
-    use sui::tx_context::{Self, TxContext, signer_};
-    use sui::coin;
+    use sui::tx_context::{Self, TxContext};
 
     struct ColorObject has key, store {
         id: object::UID,
@@ -14,11 +13,7 @@ module sui_tutorial::object_basic {
     }
 
     struct Capability has key, store {
-    }
-
-    fun init(ctx: &mut TxContext) {
-        coin
-        let sender = signer_(ctx);
+        id: object::UID
     }
 
     fun new(red: u8, green: u8, blue: u8, ctx: &mut TxContext): ColorObject {
