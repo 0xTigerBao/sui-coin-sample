@@ -1,5 +1,5 @@
 ```move
-module sui_tutorial::object_basic {
+module object_basic::object_basic {
     use sui::object;
     use sui::transfer;
     use sui::tx_context::{Self, TxContext};

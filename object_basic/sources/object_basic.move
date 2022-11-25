@@ -1,4 +1,4 @@
-module sui_tutorial::object_basic {
+module object_basic::object_basic {
     use std::debug;
 
     use sui::object;

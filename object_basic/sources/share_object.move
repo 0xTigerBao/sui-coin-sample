@@ -1,4 +1,4 @@
-module sui_tutorial::shop {
+module object_basic::shop {
     use sui::balance::{Self, Balance};
     use sui::coin::{Self, Coin};
     use sui::object::{Self, new};
