@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@mysten/sui.js": "^0.17.1",
+    "@mysten/sui.js": "0.0.0-experimental-20221128230402",
     "bignumber.js": "^9.1.0",
     "typescript": "^4.9.3"
   }
